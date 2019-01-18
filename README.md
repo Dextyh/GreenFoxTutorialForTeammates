@@ -91,15 +91,21 @@ CREATE TABLE name(
     date_of_enter TIMESTAMP,
     student_id INT UNSIGNED NOT NULL  AUTO_INCREMENT PRIMARY KEY);
 // (Here you can see how to create a table with different varriables, commands etc.)
+```
 
-// (You should meet with these below in SQL Lessons)
-   |      |     |     |     |     |     |     |     |
-   |      |     |     |     |     |     |     |     |
-   V      V     V     V     V     V     V     V     V
+![3](3.png)
+![4](4.png)
 
+#### You should meet with these commands bellow at SQL LESSONS
+
+```c
 SELECT Title, Year FROM Movies WHERE ID < 6 AND Year NOT BETWEEN 1996 AND 2001;
 // (This is how you search. I tryed to use different operators and commands to understand how it works)
+```
+![1](1.png)
+![2](2.png)
 
+```c
 SELECT DISTINCT director FROM movies ORDER BY director ASC LIMIT 3 OFFSET 5;
 // (This is how you search without duplicates (DISTINCT) and how to order by and with limit)
 // (If u want to reverse your order by, use DESC)
