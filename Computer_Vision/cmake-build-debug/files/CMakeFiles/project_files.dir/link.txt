@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libproject_files.a  CMakeFiles/project_files.dir/initial.cpp.o CMakeFiles/project_files.dir/Detect_Circles.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libproject_files.a
